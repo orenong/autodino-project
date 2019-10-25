@@ -13,5 +13,8 @@ public class Value : MonoBehaviour
         z = c;
     }
 
-
+    public override string ToString()
+    {
+        return ("x: " + x + " y: " + y + " z: " + z);
+    }
 }
